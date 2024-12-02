@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Özge Sevin Keskin</h1>
-<h3 align="center">A passionate medical device developer from Turkey</h3>
+<h3 align="center">A passionate Wearable Medical Device Developer from Turkey</h3>
 
 - 🔭 I’m currently working on **NeuroPulse**
 
