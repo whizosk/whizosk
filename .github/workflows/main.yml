@@ -12,15 +12,23 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: Platane/snk@v3
+      # Create output directory
+      - name: Create output directory
+        run: mkdir -p dist
+
+      # Generate Snake
+      - uses: Platane/snk@main
         id: snake-gif
         with:
           github_user_name: whizosk
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
-
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          entryPoint: dist/github-contribution-grid-snake.gif
+          args: "--output=dist/github-contribution-grid-snake.svg"
+        
+      # Check the status after generating the snake
       - run: git status
 
+      # Push the changes to the 'output' branch
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
@@ -28,6 +36,7 @@ jobs:
           branch: output
           force: true
 
+      # Deploy via GitHub Pages
       - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
           target_branch: output
