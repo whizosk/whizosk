@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Özge Sevin Keskin</h1>
 <h3 align="center">A passionate medical device developer from Turkey</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=whizosk" alt="whizosk" /></a> </p>
-
 - 🔭 I’m currently working on **NeuroPulse**
 
 - 🌱 I’m currently learning **AI,ML**
@@ -24,3 +22,4 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=whizosk&show_icons=true&locale=en" alt="whizosk" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=whizosk&" alt="whizosk" /></p>
+
