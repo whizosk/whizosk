@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Özge Sevin Keskin</h1>
 <h3 align="center">A passionate Wearable Medical Device Developer from Turkey</h3>
 
-- 🔭 I’m currently working on **NeuroPulse**
+- 🔭 I’m currently working on the **NeuroPulse** project, and it is about invasive vagus nerve stimulation for multiple diseases.
 
-- 🌱 I’m currently learning **AI,ML**
+- 🌱 I’m currently learning **AI,ML** 
 
 - 📫 How to reach me **ozgeskeskin@gmail.com**
 
